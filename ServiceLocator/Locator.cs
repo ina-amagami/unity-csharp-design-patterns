@@ -18,7 +18,7 @@ public static class Locator<T> where T : class
 		}
 	}
 
-	public static void Unbind()
+	public static void Clear()
 	{
 		I = null;
 	}
